@@ -7,6 +7,7 @@
   var WA_NUMBER = '447411381967';
 
   var SITE_MAP = {
+    'intouchcyber.co.uk':          'Intouch Cyber',
     'intouchcomms.co.uk':          'Intouch Comms',
     'intouchdigital.co.uk':        'Intouch Digital',
     'intouchtech.co.uk':           'Intouch Tech',
