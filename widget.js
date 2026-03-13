@@ -75,7 +75,7 @@
 
   function buildWhatsAppURL() {
     var message = DEFAULT_MESSAGE_PREFIX + getSourceName();
-    return 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(message);
+    return 'https://api.whatsapp.com/send?phone=' + WA_NUMBER + '&text=' + encodeURIComponent(message);
   }
 
   function fireAnalytics() {
